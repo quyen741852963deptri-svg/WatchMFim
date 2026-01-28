@@ -1,0 +1,55 @@
+.topbar {
+  justify-content: space-between;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+  background-color: rgba(43, 39, 39, 0.993);
+  font-family: "Playfair Display", serif;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 0 30px;
+  height: 60px;
+}
+.search {
+  border-radius: 10px;
+  height: 24px;
+  width: 200px;
+  border: 1px solid black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10px;
+}
+.tieude {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+.logo {
+  color: rgb(194, 149, 51);
+  font-size: 30px;
+}
+.indam {
+  color: rgb(189, 61, 104);
+  font-family: "Playfair Display", serif;
+}
+.khungtrong {
+  align-items: center;
+  border: 1px solid rgb(34, 34, 34);
+  max-width: 650px;
+  height: auto;
+  background-color: rgb(34, 34, 34);
+}
+.video {
+  width: 650px;
+  margin-bottom: 0;
+  height: auto;
+}
+.link {
+  margin-top: 5px;
+  color: whitesmoke;
+  font-size: 10px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(163, 163, 38);
+}
+.tenphim {
+  color: rgb(163, 161, 161);
+}

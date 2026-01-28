@@ -1,0 +1,424 @@
+.topbar {
+  justify-content: space-between;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+  background-color: rgba(43, 39, 39, 0.993);
+  font-family: "Playfair Display", serif;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 0 30px;
+  height: 60px;
+}
+.search {
+  border-radius: 10px;
+  height: 24px;
+  width: 200px;
+  border: 1px solid black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10px;
+}
+.tieude {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+.logo {
+  color: rgb(194, 149, 51);
+  font-size: 30px;
+}
+.indam {
+  color: rgb(189, 61, 104);
+  font-family: "Playfair Display", serif;
+}
+.banner {
+  background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/24353.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+}
+.tenphim {
+  color: orange;
+  font-size: 52px;
+  letter-spacing: 1px;
+  text-shadow: 0 0 12px rgba(255, 180, 0, 0.4);
+  margin-bottom: 10px;
+  font-family: "Playfair Display", serif;
+}
+.phim {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 10px;
+  margin-top: 0;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+}
+.nutxem {
+  background-color: rgb(168, 43, 43);
+  border: 1px;
+  border-radius: 10px;
+  width: 120px;
+  height: 30px;
+  color: whitesmoke;
+  box-shadow: 0 12px 28px rgba(231, 76, 60, 0.5);
+  cursor: pointer;
+}
+.mucluc1 {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 12px;
+}
+.tieude2 {
+  color: whitesmoke;
+}
+.phimnoibat {
+  align-items: center;
+  border: 1px solid black;
+  backdrop-filter: blur(6px);
+  background: #0b0b0b;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+.dsphimnb {
+  align-items: center;
+  display: flex;
+}
+.movies {
+  width: 250px;
+  height: 350px;
+  border-radius: 15px;
+  box-shadow: 0 12px 28px rgba(167, 158, 157, 0.5);
+  margin-left: 15px;
+  object-fit: cover;
+}
+
+.motaphim {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ndp1 {
+  color: whitesmoke;
+  margin-left: 15px;
+  margin-top: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.phim1 {
+  margin-left: 50px;
+  background-color: rgb(168, 43, 43);
+  border: 1px;
+  border-radius: 10px;
+  width: 120px;
+  height: 30px;
+  margin-top: 20px;
+  color: whitesmoke;
+  box-shadow: 0 12px 28px rgba(231, 76, 60, 0.5);
+  cursor: pointer;
+}
+.ndp2 {
+  color: whitesmoke;
+  margin-left: 15px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.phim2 {
+  margin-left: 60px;
+  background-color: rgb(168, 43, 43);
+  border: 1px;
+  border-radius: 10px;
+  width: 120px;
+  height: 30px;
+  color: whitesmoke;
+  box-shadow: 0 12px 28px rgba(231, 76, 60, 0.5);
+  cursor: pointer;
+}
+
+.ndp3 {
+  color: whitesmoke;
+  margin-left: 15px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.phim3 {
+  margin-left: 60px;
+  background-color: rgb(168, 43, 43);
+  border: 1px;
+  border-radius: 10px;
+  width: 120px;
+  height: 30px;
+  color: whitesmoke;
+  box-shadow: 0 12px 28px rgba(231, 76, 60, 0.5);
+  cursor: pointer;
+}
+.ndp4 {
+  color: whitesmoke;
+  margin-left: 15px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.phim4 {
+  margin-left: 62px;
+  background-color: rgb(168, 43, 43);
+  border: 1px;
+  border-radius: 10px;
+  width: 120px;
+  height: 30px;
+  color: whitesmoke;
+  box-shadow: 0 12px 28px rgba(231, 76, 60, 0.5);
+  cursor: pointer;
+}
+.trangtri1 {
+  border: 1px solid grey;
+  width: 50px;
+  height: 30px;
+  display: flex;
+  width: 100px;
+  margin-left: 15px;
+  border-radius: 15px;
+  align-items: center;
+  cursor: pointer;
+}
+.icon {
+  color: white;
+}
+.comment {
+  align-items: center;
+  border: 1px solid black;
+  backdrop-filter: blur(6px);
+  background: #0b0b0b;
+  min-height: 100vh;
+  padding-bottom: 40px;
+  margin-bottom: 0px;
+}
+.khungcomment {
+  border: 1px solid grey;
+  height: 80vh;
+  width: 1000px;
+  border-radius: 15px;
+  background-color: rgb(22, 21, 21);
+}
+.listcard {
+  display: flex;
+}
+.bl {
+  width: 200px;
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.nutsang1 {
+  color: whitesmoke;
+  border: 1px solid grey;
+  border-radius: 50%;
+  width: 27px;
+  height: 27px;
+  font-size: 20px;
+}
+.vitrinutsang1 {
+  padding-top: 35px;
+  margin-left: 10px;
+}
+.nutsang2 {
+  color: whitesmoke;
+  border: 1px solid grey;
+  border-radius: 50%;
+  width: 27px;
+  height: 27px;
+  font-size: 20px;
+}
+.vitrinutsang2 {
+  padding-top: 35px;
+  margin-left: 10px;
+}
+.phimsoinoi {
+  border: 1px solid red;
+  left: 50px;
+  width: 50px;
+  height: 50px;
+}
+.tong {
+  display: flex;
+}
+.con {
+  border: 1px solid #555;
+  width: 300px;
+  height: 49.5vh;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.noidung {
+  color: white;
+  font-size: 12px;
+  line-height: 2;
+  margin-left: 15px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10px;
+}
+.anh {
+  width: 20px;
+}
+.daugach {
+  color: #555;
+  font-size: 12px;
+  line-height: 2;
+  margin-left: 15px;
+  font-family: "Playfair Display", serif;
+}
+.td1 {
+  color: white;
+  font-size: 12px;
+  line-height: 2;
+  margin-left: 15px;
+  font-family: "Playfair Display", serif;
+  font-size: 10px;
+}
+.nutxemthem {
+  color: #555;
+  text-decoration: none;
+  font-size: 10px;
+}
+.nutxuong {
+  color: red;
+  font-size: 15px;
+}
+.nutlen {
+  color: rgb(64, 122, 64);
+  font-size: 15px;
+}
+.theloai {
+  color: white;
+  font-size: 12px;
+  line-height: 2;
+  margin-left: 15px;
+  font-family: "Playfair Display", serif;
+  font-size: 10px;
+}
+.trinhtham {
+  border: 1px solid grey;
+  color: whitesmoke;
+  border-radius: 5px;
+  background-color: grey;
+  width: auto;
+  height: auto;
+}
+.bikich {
+  border: 1px solid rgb(81, 22, 158);
+  color: whitesmoke;
+  border-radius: 5px;
+  background-color: rgb(142, 108, 221);
+  width: 50px;
+  height: auto;
+}
+.haihuoc {
+  border: 1px solid rgb(177, 157, 69);
+  color: rgb(248, 248, 248);
+  border-radius: 5px;
+  background-color: rgb(177, 157, 69);
+  width: 50px;
+  height: auto;
+}
+.maquai {
+  border: 1px solid rgb(61, 29, 150);
+  color: rgb(248, 248, 248);
+  border-radius: 5px;
+  background-color: rgb(61, 29, 150);
+  width: 50px;
+  height: auto;
+}
+.tinhcam {
+  border: 1px solid rgb(197, 66, 121);
+  color: rgb(248, 248, 248);
+  border-radius: 5px;
+  background-color: rgb(197, 66, 121);
+  width: 50px;
+  height: auto;
+}
+.binhluanmoi {
+  border-radius: 15px;
+  cursor: pointer;
+  padding-top: 2px;
+}
+.footer {
+  padding: 40px 80px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.footer-social span {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.icon1 {
+  border: 1px solid grey;
+  cursor: pointer;
+  background-color: grey;
+  color: rgb(76, 76, 206);
+}
+.icon2 {
+  border: 1px solid grey;
+  cursor: pointer;
+  background-color: grey;
+  color: purple;
+}
+.icon3 {
+  border: 1px solid grey;
+  cursor: pointer;
+  background-color: grey;
+  color: blue;
+}
+.icon4 {
+  border: 1px solid grey;
+  cursor: pointer;
+  background-color: grey;
+  color: yellow;
+}
+.duongdan {
+  margin-top: 25px;
+}
+.dd {
+  margin-right: 20px;
+  color: #ddd;
+  font-size: 14px;
+  text-decoration: none;
+}
+.mieutacuoi {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #888;
+  max-width: 900px;
+  line-height: 1.6;
+}
+
+.last {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #666;
+}
